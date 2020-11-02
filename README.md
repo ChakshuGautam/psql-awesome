@@ -1,8 +1,10 @@
-# Common Tasks
+### Common Tasks
 
  - [Disk Usage Checks](https://wiki.postgresql.org/wiki/Disk_Usage)
  
  
-# pg-stat-statements
+### pg-stat-statements
 
-# executing 
+### Common Error - fixes
+
+### Docker setups
