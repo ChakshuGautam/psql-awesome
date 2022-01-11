@@ -16,3 +16,7 @@
 If things went correctly it should show something like this -> `tcp://0.tcp.ngrok.io:12646 -> localhost:15432`
 For the connection url it should be something like this -> `postgres://username:password@0.tcp.ngrok.io:12646/dbName`
 
+
+### Generated Columns
+- AGE => https://fluca1978.github.io/2019/11/04/PostgreSQL12GeneratedColumns.html
+
