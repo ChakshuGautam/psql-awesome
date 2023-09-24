@@ -20,3 +20,12 @@ For the connection url it should be something like this -> `postgres://username:
 ### Generated Columns
 - AGE => https://fluca1978.github.io/2019/11/04/PostgreSQL12GeneratedColumns.html
 
+### size of tables
+```psql
+SELECT
+   relname as "Table",
+   pg_size_pretty(pg_total_relation_size(relid)) As "Size",
+   pg_size_pretty(pg_total_relation_size(relid) - pg_relation_size(relid)) as "External Size"
+   FROM pg_catalog.pg_statio_user_tables ORDER BY pg_total_relation_size(relid) DESC;
+```
+
